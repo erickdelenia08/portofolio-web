@@ -35,18 +35,18 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-main-col w-full h-full">
+    <div className="bg-main-col w-screen">
       <TopBar />
-      <div className="lg:flex px-5 sm:px-40 h-dvh shadow-xl">
+      <div className="lg:flex flex flex-col px-5 sm:px-40 h-dvh shadow-xl">
         <div className="flex flex-col flex-1 font-montserrat justify-center">
           <span className="text-2xl 2xl:text-5xl font-bold text-white-col">I'M</span>
           <span className="text-6xl 2xl:text-8xl font-bold text-gold-col">Erick Delenia</span>
           <span className="text-2xl 2xl:text-5xl font-bold text-white-col">Coder & Animator</span>
-          <button className="bg-main-col border-4 border-gold-col rounded-lg h-16 w-72 mt-6 flex items-center justify-center select-none text-gold-col hover:bg-gold-col hover:text-main-col">
-            <span className="font-montserrat font-bold text-2xl">Contact Me</span>
+          <button className=" bg-main-col border-4 border-gold-col rounded-lg h-16 mt-6 flex items-center justify-center select-none text-gold-col hover:bg-gold-col hover:text-main-col">
+            <span className="font-montserrat font-bold sm:text-2xl px-5">Contact Me</span>
           </button>
         </div>
-        <div className="flex items-center justify-end flex-1">
+        <div className="flex items-center justify-end flex-1 order-first">
           <div className="aspect-square w-4/5 bg-scnd-col rounded-full relative flex items-center justify-center overflow-hidden">
             <div className="h-1/5 w-1/5 bg-main-col rounded-full flex gap-2 items-center justify-center">
               <div className="h-1/5 w-1/5 bg-white-col rounded-full flex -translate-y-3">
@@ -69,16 +69,16 @@ function App() {
           Porro quos excepturi, voluptates quidem accusantium cumque, sed harum sit molestiae iusto iste laudantium id doloribus veritatis, saepe eos. Pariatur facere voluptas nemo similique laudantium corporis necessitatibus exercitationem eligendi illum!</span>
       </div>
       <div className="h-40"></div>
-      <div className="text-4xl font-bold px-40 font-montserrat text-white-col flex flex-col">
+      <div className="text-4xl font-bold px-5 sm:px-40 font-montserrat text-white-col flex flex-col">
         <span className="mb-5">My Skills</span>
         <MySkills />
       </div>
       <div className="h-20"></div>
-      <div className="font-bold px-40 font-montserrat text-white-col flex flex-col">
+      <div className="font-bold px-5 sm:px-40 font-montserrat text-white-col flex flex-col">
         <span className="text-5xl mb-5">Portofolio</span>
         <span className="text-3xl mb-5 text-gold-col">Motion Graphic</span>
       </div>
-      <div className="flex mx-40 gap-6 overflow-scroll">
+      <div className="flex mx-5 sm:mx-40 gap-6 overflow-scroll">
 
         {videos.length > 0 ? (
           <>
