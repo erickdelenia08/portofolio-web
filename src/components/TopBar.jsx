@@ -4,11 +4,11 @@ import React from 'react'
 function TopBar() {
     return (
         <div className="py-10 flex items-center justify-between mx-40 select-none">
-            <div className="text-3xl font-montserrat font-bold cursor-pointer">
+            <div className="text-3xl font-montserrat font-bold cursor-pointer hidden sm:flex">
                 <span className='text-white-col'>About</span>
                 <span className='text-gold-col'>Me.</span>
             </div>
-            <ul className='font-montserrat text-2xl flex gap-x-5 font-bold text-white cursor-pointer'>
+            <ul className='font-montserrat text-2xl gap-x-5 font-bold text-white cursor-pointer hidden sm:flex'>
                 <li>About</li>
                 <li className='text-gray-col'>Portofolio</li>
                 <li className='text-gray-col'>Contact</li>

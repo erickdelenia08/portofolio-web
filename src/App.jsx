@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="bg-main-col w-full h-full">
       <TopBar />
-      <div className="lg:flex px-40 h-dvh shadow-xl">
+      <div className="lg:flex px-5 sm:px-40 h-dvh shadow-xl">
         <div className="flex flex-col flex-1 font-montserrat justify-center">
           <span className="text-2xl 2xl:text-5xl font-bold text-white-col">I'M</span>
           <span className="text-6xl 2xl:text-8xl font-bold text-gold-col">Erick Delenia</span>
@@ -62,9 +62,9 @@ function App() {
         </div>
       </div>
       <div className="h-20"></div>
-      <div className="px-40 font-montserrat text-white-col flex flex-col gap-4">
-        <span className=" text-4xl font-bold">About</span>
-        <span className="text-justify text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam numquam expedita nisi veniam quisquam amet deleniti blanditiis molestias corporis minima obcaecati corrupti aperiam, nam vel unde nulla commodi. Assumenda!
+      <div className="px-5 sm:px-40 font-montserrat text-white-col flex flex-col gap-4">
+        <span className="text-2xl sm:text-4xl font-bold">About</span>
+        <span className="text-justify sm:text-2xl text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam numquam expedita nisi veniam quisquam amet deleniti blanditiis molestias corporis minima obcaecati corrupti aperiam, nam vel unde nulla commodi. Assumenda!
           Facere neque nihil reprehenderit corporis, est odio? Ipsam dolore repudiandae sit provident dolorem itaque, incidunt facere repellat asperiores? Aut, minus provident? Ratione voluptatem, exercitationem beatae quod placeat quae laudantium ad.
           Porro quos excepturi, voluptates quidem accusantium cumque, sed harum sit molestiae iusto iste laudantium id doloribus veritatis, saepe eos. Pariatur facere voluptas nemo similique laudantium corporis necessitatibus exercitationem eligendi illum!</span>
       </div>
