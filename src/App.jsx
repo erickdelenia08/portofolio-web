@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="bg-main-col w-screen">
       <TopBar />
-      <div className="lg:flex flex flex-col px-5 sm:px-40 h-dvh shadow-xl">
+      <div className="lg:flex-row flex flex-col px-5 sm:px-40 h-dvh w-screen shadow-xl">
         <div className="flex flex-col flex-1 font-montserrat justify-center">
           <span className="text-2xl 2xl:text-5xl font-bold text-white-col">I'M</span>
           <span className="text-6xl 2xl:text-8xl font-bold text-gold-col">Erick Delenia</span>
@@ -46,7 +46,7 @@ function App() {
             <span className="font-montserrat font-bold sm:text-2xl px-5">Contact Me</span>
           </button>
         </div>
-        <div className="flex items-center justify-end flex-1 order-first">
+        <div className="flex items-center justify-end flex-1 order-first md:order-2">
           <div className="aspect-square w-4/5 bg-scnd-col rounded-full relative flex items-center justify-center overflow-hidden">
             <div className="h-1/5 w-1/5 bg-main-col rounded-full flex gap-2 items-center justify-center">
               <div className="h-1/5 w-1/5 bg-white-col rounded-full flex -translate-y-3">
@@ -78,7 +78,7 @@ function App() {
         <span className="text-5xl mb-5">Portofolio</span>
         <span className="text-3xl mb-5 text-gold-col">Motion Graphic</span>
       </div>
-      <div className="flex mx-5 sm:mx-40 gap-6 overflow-scroll">
+      <div className="flex mx-5 sm:mx-40 gap-6">
 
         {videos.length > 0 ? (
           <>
