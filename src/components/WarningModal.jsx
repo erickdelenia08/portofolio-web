@@ -3,7 +3,7 @@ import React from 'react';
 const WarningModal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-scnd-col bg-opacity-50 flex justify-center items-center z-50 backdrop-blur-sm font-montserrat">
-      <div className="bg-gray-col p-6 rounded-lg shadow-lg max-w-sm w-full text-center select-none">
+      <div className="bg-gray-col p-6 rounded-lg shadow-lg max-w-sm w-full text-center select-none m-2">
         <h2 className="text-xl font-semibold mb-4">Welcome!</h2>
         <p className="mb-4">This website is stll on <span className='font-semibold'>the development process</span>. Perhaps, there're some features that're  <span className=' font-semibold'>not available</span> right now</p>
         <button
